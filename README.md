@@ -38,7 +38,7 @@ You can query the latest videos from the xFloggerNetwork by using http://www.xfl
         ]
     }
 
-Urls can take the form of `http://www.xfloggernetwork.com/action/json-export/videos/{PAGE}/{COUNT_PER_PAGE}/` where `PAGE` defaults to 1 and `COUNT_PER_PAGE` defaults to 100 if they aren't provided. Here is an example of page 2 containing 10 videos per page http://www.xfloggernetwork.com/action/json-export/videos/2/10/.
+Urls can take the form of `http://www.xfloggernetwork.com/action/json-export/videos/{PAGE}/{COUNT_PER_PAGE}/` where `PAGE` defaults to 1 and `COUNT_PER_PAGE` defaults to 20 if they aren't provided. Here is an example of page 2 containing 10 videos per page http://www.xfloggernetwork.com/action/json-export/videos/2/10/.
 
 ###Querying Tags from the xFloggerNetwork
 All content on the xFloggerNetwork is tagged. You can query those tags using http://www.xfloggernetwork.com/action/json-export/tags/. Tags will be returned as an array of JSON objects in the form of:
@@ -58,4 +58,4 @@ All content on the xFloggerNetwork is tagged. You can query those tags using htt
 where `ID` will hold the tag_id, `count` will hold the number of videos tagged, and `name` as the name for the tag.
 
 ###Querying Tagged videos from the xFloggerNetwork
-You can get the latest videos for a tag using `http://www.xfloggernetwork.com/action/json-export/tagged-videos/{TAG_ID}/{PAGE}/{COUNT_PER_PAGE}/` where `TAG_ID` is a valid ID returned by a call to http://www.xfloggernetwork.com/action/json-export/tags/, `PAGE` defaults to 1 and `COUNT_PER_PAGE` defaults to 100 if they aren't provided. Here is an example of page 2 containing 10 videos per page from Tag1 http://www.xfloggernetwork.com/action/json-export/videos/1/2/10/. This url returns data in the same format as if you were querying the latest videos as shown above.
+You can get the latest videos for a tag using `http://www.xfloggernetwork.com/action/json-export/tagged-videos/{TAG_ID}/{PAGE}/{COUNT_PER_PAGE}/` where `TAG_ID` is a valid ID returned by a call to http://www.xfloggernetwork.com/action/json-export/tags/, `PAGE` defaults to 1 and `COUNT_PER_PAGE` defaults to 20 if they aren't provided. Here is an example of page 2 containing 10 videos per page from Tag1 http://www.xfloggernetwork.com/action/json-export/videos/1/2/10/. This url returns data in the same format as if you were querying the latest videos as shown above.
