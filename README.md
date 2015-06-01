@@ -34,6 +34,7 @@ You can query the latest videos from the xFloggerNetwork by using http://www.xfl
         ]
     }
 
+Urls can take the form of `http://www.xfloggernetwork.com/action/json-export/videos/{PAGE}/{COUNT_PER_PAGE}/` where `PAGE` will defaults to 1 and `COUNT_PER_PAGE` defaults to 100 if they aren't provided. Here is an example of page 2 containing 10 videos per page http://www.xfloggernetwork.com/action/json-export/videos/2/10/.
 
 ###Querying Tags from the xFloggerNetwork
 All content on the xFloggerNetwork is tagged. You can query those tags using http://www.xfloggernetwork.com/action/json-export/tags/. Tags will be returned as an array of JSON objects in the form of:
