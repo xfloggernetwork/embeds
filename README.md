@@ -18,6 +18,8 @@ You can query the latest videos from the xFloggerNetwork by using http://www.xfl
                 sprite: "http://www.xfloggernetwork.com/xxx/sprite.jpg",
                 tags: [ "Tag1", "Tag2" ],
                 tagIds: [ 1, 2 ],
+                length: 125,
+                lengthFormatted: "2:05",
                 embed: "<iframe src='http://www.xfloggernetwork.com/video/xxx/video2.html'></iframe>"
             },
             {
@@ -29,6 +31,8 @@ You can query the latest videos from the xFloggerNetwork by using http://www.xfl
                 sprite: "http://www.xfloggernetwork.com/xxx/sprite.jpg",
                 tags: [ "Tag1", "Tag2" ],
                 tagIds: [ 1, 2 ],
+                length: 135,
+                lengthFormatted: "2:15",
                 embed: "<iframe src='http://www.xfloggernetwork.com/video/xxx/video1.html'></iframe>"
             }
         ]
