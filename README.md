@@ -3,6 +3,7 @@
 
 ###Querying latest videos
 You can query the latest videos from the xFloggerNetwork by using http://www.xfloggernetwork.com/action/json-export/videos/. This endpoint will return a JSON object in the form of:
+
     {
         total: 100000,
         count: 2,
@@ -15,10 +16,13 @@ You can query the latest videos from the xFloggerNetwork by using http://www.xfl
                 date: "2015-06-01 22:46:23",
                 thumbnail: "http://www.xfloggernetwork.com/xxx/thumbnail.jpg",
                 sprite: "http://www.xfloggernetwork.com/xxx/sprite.jpg",
-                tags: [ "Tag1", "Tag2" ]
+                tags: [ "Tag1", "Tag2" ],
+                tagIds: [ 1, 2 ],
+                embed: "<iframe src='http://www.xfloggernetwork.com/video/xxx/video2.html'></iframe>"
             },
         ]
     }
+
 
 ###Querying Tags from the xFloggerNetwork
 All content on the xFloggerNetwork is tagged. You can query those tags using http://www.xfloggernetwork.com/action/json-export/tags/. Tags will be returned as an array of JSON objects in the form of:
