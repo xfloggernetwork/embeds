@@ -20,6 +20,17 @@ You can query the latest videos from the xFloggerNetwork by using http://www.xfl
                 tagIds: [ 1, 2 ],
                 embed: "<iframe src='http://www.xfloggernetwork.com/video/xxx/video2.html'></iframe>"
             },
+            {
+                ID: 1,
+                title: "Video Title 1",
+                description: "Description",
+                date: "2015-06-01 22:46:23",
+                thumbnail: "http://www.xfloggernetwork.com/xxx/thumbnail.jpg",
+                sprite: "http://www.xfloggernetwork.com/xxx/sprite.jpg",
+                tags: [ "Tag1", "Tag2" ],
+                tagIds: [ 1, 2 ],
+                embed: "<iframe src='http://www.xfloggernetwork.com/video/xxx/video1.html'></iframe>"
+            }
         ]
     }
 
